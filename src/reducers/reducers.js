@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux'
-import { reducersItem } from './reducersItem'
-import { reducersItemList } from './reducersItemList'
-import { reducersIsEditing } from './reducersIsEditing'
+import { item } from './reducersItem'
+import { itemList } from './reducersItemList'
+import { isEditing } from './reducersIsEditing'
 
 export const reducers = combineReducers({
-	ReducersItem: reducersItem,
-	ReducersItemList: reducersItemList,
-	ReducersIsEditing: reducersIsEditing
+	ReducersItem: item,
+	ReducersItemList: itemList,
+	ReducersIsEditing: isEditing
 })
